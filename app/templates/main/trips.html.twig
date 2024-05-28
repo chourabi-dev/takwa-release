@@ -1,0 +1,79 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Nos voyages disponibles{% endblock %}
+
+{% block body %}
+ 
+    
+      <section id="hero" class="hero d-flex align-items-center">
+        <div class="container">
+        <div class="row gy-4 d-flex justify-content-between">
+            <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <h2 data-aos="fade-up">Nos voyages disponibles</h2>
+                <p data-aos="fade-up" data-aos-delay="100">
+                    Découvrez nos prochains voyages disponibles
+                </p> 
+            </div> 
+
+        </div>
+        </div>
+    </section> 
+
+
+
+  <main id="main">
+
+
+
+    <section id="service" class="services pt-0">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <span>Voyage</span>
+          <h2>Nos voyages disponibles</h2>
+
+        </div>
+
+        <div class="row justify-content-center gy-4">
+
+            <div class="col-sm-8">
+
+
+                {% for item in trips %}
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="/images/trips/{{ item.photo }}" alt="" class="rounded w-100">
+                                <div class="d-flex justify-content-between mt-5">
+                                    <div>
+                                        <h2>{{ item.title }}</h2>
+                                    </div>
+                                    <div>
+                                        <h2><span class="badge bg-success text-white">{{ item.type }}</span> </h2>
+                                    </div>
+                                </div>
+                                
+                                <p>
+                                    <a href="{{ path('trip_details_route',{id:item.id}) }}">plus de détails</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+
+            </div>
+          
+         
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+
+  </main>
+  
+
+  
+{% endblock %}

@@ -1,0 +1,17 @@
+{% set status = _context.entity.instance.status %}
+
+
+{% if status == 0 %}
+    <span class="badge bg-info text-white">pending</span>
+{% endif %}
+
+
+{% if status == 1 %}
+    <span class="badge bg-warning text-white">on going</span>
+{% endif %}
+
+
+
+{% if status == 2 %}
+    <span class="badge bg-success text-white">done</span>
+{% endif %}

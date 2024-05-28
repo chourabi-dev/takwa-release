@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702641575954",
+    "project_id": "gymmy-space-mobile-app",
+    "storage_bucket": "gymmy-space-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702641575954:android:c0113c2a89c87fc9c020cb",
+        "android_client_info": {
+          "package_name": "space.gymmy.gymmy_space_mobile_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702641575954-e1udicvl95l7fa8rbgbgn8o74n475407.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJjHWyt95r_hHuBeSqMLo8D4iEdnVjQaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702641575954-e1udicvl95l7fa8rbgbgn8o74n475407.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

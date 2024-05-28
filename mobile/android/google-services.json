@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34918491876",
+    "project_id": "takwa-3751b",
+    "storage_bucket": "takwa-3751b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34918491876:android:1f7fa5de2b7d1ec7696ef1",
+        "android_client_info": {
+          "package_name": "com.example.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAil0tyQnl_xtB6zn2f8Z7PuwWLOvtOt9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

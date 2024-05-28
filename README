@@ -1,0 +1,44 @@
+juin delevery date
+
+
+Agence de voyage:
+
+
+- SECURITY !!
+
+- acceuil
+
+    * config
+ 	- region
+	- 
+
+	
+    * agence banier / nav bar / 
+    * make reservation
+       
+
+   DONE	hotels ( Rooms => name / addressTEXT / descreptions / lng lat / region  )
+
+        vols   
+        batteau
+   DONE event   ( title description startdate datefin image  )
+   DONE location bus                            ROLE_USER
+            - nbr place
+            - distation start / end
+            - nom prenom raison social
+            - phone
+            - email
+            - status 0 1 2
+            
+
+  DONE  *admin agence
+        gestion reservation
+        gestion => add etc...
+        gestion custom trips 
+        dashboard
+
+
+  EN COURS  * bus driver
+        apk 
+            auth
+            trips status 1

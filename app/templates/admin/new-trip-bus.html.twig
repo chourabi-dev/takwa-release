@@ -1,0 +1,44 @@
+{% extends '@EasyAdmin/layout.html.twig' %}
+
+{% block main %}
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <form action="" method="post">
+                    <div class="row mb-3">
+                        <div class="col-sm-6">
+                            <label for="">Bus driver</label>
+                            <select name="driver" class="form-select">
+                                <option value=""></option>
+                                {% for item in drivers %}
+                                    <option value="{{item.id}}">{{ item.fullname }}</option>
+                                {% endfor %}
+
+                            </select>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="">Trip</label>
+                            <select name="reservation"  class="form-select">
+                                <option value=""></option>
+                                {% for item in reservations %}
+                                    <option value="{{item.id}}">{{ item.destination }}</option>
+                                {% endfor %}
+                            </select>
+                        </div> 
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Add trip</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+{% endblock main %}
+
+ 
